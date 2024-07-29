@@ -1,0 +1,137 @@
+.pcDetailrule {
+  background: #18191a;
+  padding-bottom: 100px;
+}
+.pcDetailrule .head {
+  width: 100%;
+  height: 284px;
+  background: url(/assets/activity_rule_bg-C28SSp3r.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pcDetailrule .head .logo1 {
+  position: absolute;
+  width: 120px;
+  height: 43px;
+  left: 20px;
+  top: 22px;
+}
+.pcDetailrule .head .morepic {
+  position: absolute;
+  right: 10px;
+  width: 150px;
+  height: 136px;
+  top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+.pcDetailrule .head .BitPower {
+  position: absolute;
+  left: 20px;
+  height: 60px;
+  top: 68px;
+  font-weight: 600;
+  z-index: 22;
+}
+.textGradient, .active .textGradients {
+  /* background-image: linear-gradient(to right, #4fe117, #15e3c4);
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: #F0B90B;
+  font-size: 18px;
+}
+.pcDetailrule .main {
+  margin-top: -158px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 3;
+}
+.rounds {
+  background: linear-gradient(180deg, #3a3a3c, #242526);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+.main .h2 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.simpleP {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.simplePGray {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff80;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.main .h2 {
+  font-size: 18px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.pcDetailrule .btnLast {
+  height: 130px;
+  background: radial-gradient(0% 43% at 100% 0%, #203701, #100d10);
+  border-radius: 10px;
+  position: relative;
+  margin: 20px 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0 20px;
+}
+.pcDetailrule .btnLast .pic2 {
+  width: 162px;
+  height: 100px;
+  position: absolute;
+  bottom: -50px;
+  right: 10px;
+}
+.thumbnail_img {
+  width: 14px;
+  height: 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.simplePGray {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff80;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.simplePGray p {
+  padding-bottom: 10px;
+}
+.rounds {
+  background: linear-gradient(180deg, #3a3a3c, #242526);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.rounds p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.rounds p {
+  margin-bottom: 0 !important;
+}
+.gray {
+  color: #ffffff80 !important;
+}

@@ -1,0 +1,67 @@
+.pages .head {
+  width: 100%;
+  height: 390px;
+  position: relative;
+  /* background: url(/assets/activity_head_bg2-Cr3N8nsZ.png) 0% 0% / cover no-repeat; */
+}
+.pages .head .info {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 130px;
+}
+.pages .head .info p {
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #12a535;
+  line-height: 22px;
+  text-align: center;
+}
+.pages .btn {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.borderInlint {
+  border: 2px solid !important;
+  border: solid 2px transparent !important;
+  border-radius: 24px !important;
+  background-image: linear-gradient(#18191a, #18191a), linear-gradient(270deg, #4fe117, #15e3c4) !important;
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important;
+}
+.simpleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.simpleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+}
+.teleBtn {
+  height: 50px;
+  background: #32abdf;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.teleBtn.dis {
+  opacity: .3;
+}
+.teleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0 12px;
+}

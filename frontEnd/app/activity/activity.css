@@ -1,0 +1,91 @@
+.pages {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.pages .head {
+  width: 100%;
+  height: 470px;
+  /* background: url(/assets/activity_index_bg-DArJnrpq.png) no-repeat; */
+  background-size: cover;
+  position: relative;
+}
+.pages .head .logo1 {
+  position: absolute;
+  width: 248px;
+  height: 244px;
+  left: 34px;
+  top: 172px;
+}
+.pages .head .logo2 {
+  position: absolute;
+  width: 140px;
+  height: 112px;
+  right: 32px;
+  top: 218px;
+}
+.pages .head .money {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  font-style: normal;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  top: 98px;
+}
+.pages .head .money h2 {
+  font-size: 50px;
+}
+.textGradient, .active .textGradients {
+  /* background-image: linear-gradient(to right, #4fe117, #15e3c4);
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: #F0B90B;
+  font-size: 36px;
+}
+.pages .main {
+  padding: 0 20px;
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+}
+.pages .main .list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 90px;
+  background: linear-gradient(180deg, #3a3a3c, #242526);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.pages .main .list .one {
+  height: 40px;
+  background: linear-gradient(270deg, #4fe117, #15e3c4);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  color: #18191a;
+}
+.pages .main .list .two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  height: 50px;
+  padding: 0 20px;
+}
+.pages .main .list img {
+  width: 54px;
+  height: 46px;
+  position: absolute;
+  left: 0;
+  top: -6px;
+}

@@ -1,0 +1,221 @@
+.pages {
+  padding-top: 60px;
+  background: #18191a;
+}
+.pages .head {
+  width: 100%;
+  height: 470px;
+  background: url(/assets/earndaily_head_bg0-Dr0yb9y9.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.pages .head .logo1 {
+  position: absolute;
+  width: 77px;
+  height: 28px;
+  left: 50%;
+  margin-left: -39px;
+  top: 22px;
+}
+.pages .head .money {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  font-style: normal;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  top: 68px;
+}
+.pages .head .money h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  font-style: normal;
+  text-align: center;
+  /* text-shadow: 0px 2px 0 #12A535; */
+  background-image: linear-gradient(to right, #12a535, #12a535);
+  text-shadow: 2px -1px 0 #FFFBBF;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.pages .head .info {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 253px;
+}
+.pages .head .info p {
+  padding: 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 20px;
+}
+.pages .head .more {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 308px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pages .head .more span {
+  height: 24px;
+  background: #ffffff1a;
+  border-radius: 4px;
+  color: #ffffff80;
+  padding: 0 20px;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 24px;
+}
+.pages .head .todayPrev {
+  height: 124px;
+  background: linear-gradient(180deg, #3a3a3c, #242526);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  width: calc(100% - 40px);
+  flex-direction: column;
+}
+.pages .head .todayPrev .tit {
+  font-size: 18px;
+  margin-top: 12px;
+  padding: 0 12px;
+  text-align: center;
+}
+.textGradient, .active .textGradients {
+  background-image: linear-gradient(to right, #4fe117, #15e3c4);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 18px;
+}
+.pages .head .todayPrev .lis {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin-top: 16px;
+  position: relative;
+}
+.pages .head .todayPrev .lis .one {
+  display: flex;
+  flex-direction: column;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+}
+.pages .head .todayPrev .lis .one p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff80;
+  line-height: 14px;
+}
+.pages .head .todayPrev .lis .one span {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #18191a;
+  margin: 3px 0 6px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  z-index: 2;
+}
+.pages .head .todayPrev .lis .one h2 {
+  font-weight: 400;
+  font-size: 12px;
+  color: #2dfe4f80;
+  line-height: 14px;
+}
+.pages .head .todayPrev .lis b {
+  height: 10px;
+  background: #4fe117;
+  left: 40px;
+  top: 22px;
+  z-index: 2;
+  position: absolute;
+}
+.pages .head .todayPrev .lis:after {
+  height: 10px;
+  background: #18191a80;
+  left: 26px;
+  top: 22px;
+  z-index: 1;
+  width: calc(100% - 52px);
+  position: absolute;
+  content: "";
+}
+.pages .btn {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.commonBtn.dis {
+  opacity: .3;
+}
+.commonBtn {
+  cursor: pointer;
+  height: 60px;
+  background: linear-gradient(270deg, #a3ff7f, #64f7e0);
+  box-shadow: 0 5px 10px #2dfe4f33, inset 0 5px 13px #ffffffeb;
+  border-radius: 30px;
+  border-image: linear-gradient(270deg, #4fe117, #15e3c4) 2 2;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 18px;
+  color: #18191a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.borderInlint {
+  border: 2px solid !important;
+  border: solid 2px transparent !important;
+  border-radius: 24px !important;
+  background-image: linear-gradient(#18191a, #18191a), linear-gradient(270deg, #4fe117, #15e3c4) !important;
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important;
+}
+.simpleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.simpleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0 12px;
+}
+.teleBtn {
+  height: 50px;
+  background: #32abdf;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.teleBtn.dis {
+  opacity: .3;
+}
+.teleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0 12px;
+}
+.teleBtn p, .simpleBtn p {
+  font-weight: 600;
+  font-size: 16px;
+}

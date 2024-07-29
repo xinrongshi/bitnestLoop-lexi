@@ -1,0 +1,52 @@
+.jobForm{
+  padding: 0 20px;
+}
+.inputList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.inputList p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.ints {
+  width: 100%;
+  display: flex;
+}
+.cominput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  color: #fff;
+  background: none;
+  text-indent: 1em;
+  width: 100%;
+}
+.commonBtn {
+  cursor: pointer;
+  height: 60px;
+  background: linear-gradient(270deg, #a3ff7f, #64f7e0);
+  box-shadow: 0 5px 10px #2dfe4f33, inset 0 5px 13px #ffffffeb;
+  border-radius: 30px;
+  border-image: linear-gradient(270deg, #4fe117, #15e3c4) 2 2;
+  opacity: 1;
+  font-weight: 600;
+  font-size: 18px;
+  color: #18191a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tip {
+  font-weight: 400;
+  font-size: 14px;
+  color: #15e3c4;
+  line-height: 17px;
+  text-align: center;
+  font-style: normal;
+  padding: 20px 0;
+}

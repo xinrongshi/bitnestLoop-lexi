@@ -1,0 +1,84 @@
+.pagesjob  {
+  background: #18191a;
+  padding-bottom: 100px;
+}
+.pagesjob  .main {
+  margin-top: 20px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 3;
+}
+.pagesjob  .h .l img {
+  width: 20px;
+  height: 15px;
+  margin: 0 4px;
+}
+.pagesjob .h {
+  display: flex;
+  justify-content: space-between;
+  min-height: 78px;
+  align-items: center;
+  margin: 0 20px;
+  border-bottom: .5px solid rgba(255, 255, 255, .3);
+}
+.pagesjob .h .l {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pagesjob .h .applyNow {
+  flex-shrink: 0;
+  height: 24px;
+  background: #ffffff1a;
+  border-radius: 4px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.pagesjob .main {
+  margin-top: 20px;
+  padding: 0 20px;
+  position: relative;
+  z-index: 3;
+}
+.main .li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: .5px solid rgba(255, 255, 255, .3);
+  margin-bottom: 20px;
+}
+.main .li .one {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.main .li .one img {
+  width: 24px;
+  height: 24px;
+}
+.main .li .one h2 {
+  font-size: 18px;
+  padding: 0 10px;
+}
+.textGradient, .active .textGradients {
+  /* background-image: linear-gradient(to right, #4fe117, #15e3c4);
+  -webkit-background-clip: text;
+  color: transparent; */
+  color: #F0B90B;
+  font-size: 18px;
+}
+.simplePGray {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff80;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.simpleColor {
+  color: #4fe117;
+  font-size: 16px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,160 @@
+.pagesone {
+  padding-bottom: 460px;
+  background: rgb(24, 25, 26);
+}
+.pagesone .head .money h2 {
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+}
+.pagesone .head {
+  width: 100%;
+  height: 643px;
+  position: relative;
+  margin-bottom: 40px;
+  /* background: url(/assets/activity_one_bg-DyVg2ZAS.png) 0% 0% / cover no-repeat; */
+}
+.pagesone .head .oneStr {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
+  position: absolute;
+  left: 42px;
+  text-align: center;
+  top: 103px;
+  color: #F0B90B;
+}
+.pagesone .head .money {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  font-style: normal;
+  position: absolute;
+  left: 42px;
+  text-align: center;
+  top: 125px;
+}
+.pagesone .listAll {
+  position: absolute;
+  top: 265px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.pagesone .list {
+  display: flex;
+  flex-direction: column;
+  min-height: 108px;
+  cursor: pointer;
+  background: linear-gradient(rgb(58, 58, 60), rgb(36, 37, 38));
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-image: initial;
+  margin: 0px 20px 20px;
+}
+.pagesone .main {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.pagesone .list .one {
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+  /* margin: 0px 20px; */
+}
+.pagesone .textGradient, .active .textGradients {
+  /* background-image: linear-gradient(to right, #F0B90B, rgb(21, 227, 196));
+  background-clip: text;
+  color: transparent; */
+  color: #F0B90B;
+  font-size: 36px;
+}
+.pagesone .list .two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  min-height: 50px;
+  flex-direction: column;
+  padding: 20px;
+}
+.pagesone .simplePGray {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.pagesone .simplePGray p {
+  padding-bottom: 10px;
+}
+.pagesone .simpleColor {
+  color: #F0B90B;
+  font-size: 16px;
+  padding-bottom: 20px;
+}
+.pagesone .simplePGray {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.pagesone .borderInlint {
+  background-image: linear-gradient(rgb(24, 25, 26), rgb(24, 25, 26)), linear-gradient(270deg, #F0B90B, rgb(21, 227, 196)) !important;
+  background-origin: border-box !important;
+  background-clip: content-box, border-box !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  border-color: transparent !important;
+  border-image: initial !important;
+  border-radius: 24px !important;
+}
+.pagesone .simpleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  cursor: pointer;
+}
+.pagesone .teleBtn {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: rgb(50, 171, 223);
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+.pagesone .teleBtn.dis {
+  opacity: 0.3;
+}
+h1, h2, h3, h4, h5, p, span {
+  padding: 0px;
+  margin: 0px;
+}
+.pagesone .simpleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 10px;
+}
+.pagesone .teleBtn img {
+  width: 24px;
+  height: 24px;
+  margin: 0px 12px;
+}

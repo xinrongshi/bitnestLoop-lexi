@@ -1,0 +1,14 @@
+/* IconButtons.module.css */
+.item-title {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .zone-title {
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(270deg, #f9ec56, #c99722);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

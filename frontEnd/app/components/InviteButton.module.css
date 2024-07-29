@@ -1,0 +1,15 @@
+.inviteButton{
+    cursor: pointer !important;
+    height: 50px !important;
+    background: linear-gradient(270deg, #f9ec56, #c99722) !important;
+    border-radius: 24px !important;
+    margin: 0 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 290px !important;
+    color:#000 !important;
+    font-size: 18px !important;
+    margin-bottom: 28px !important;
+  }
+  
