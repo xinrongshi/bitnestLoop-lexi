@@ -23,7 +23,7 @@
 ## Development Environment
 
 1. **Frontend Development Environment**:
-   - Node.js / Next.js / JavaScript
+   - Node.js / Next.js / JavaScript / TypeScript
 
 2. **Smart Contract Development and Testing**:
    - Truffle Suite
